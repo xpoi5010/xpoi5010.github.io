@@ -1,3 +1,11 @@
 ﻿body {
     font-family: Microsoft JhengHei;
 }
+content{
+	margin-left :5%;
+	margin-right :5%;
+	margin-top :2%;
+}
+about_header{
+	border-bottom :3% solid #3F3F3F;
+}
