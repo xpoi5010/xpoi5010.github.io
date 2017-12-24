@@ -2,10 +2,10 @@
     font-family: Microsoft JhengHei;
 }
 content{
-	margin-left :5%;
-	margin-right :5%;
-	margin-top :2%;
+	margin :5% 5% 5% 5%;
 }
 about_header{
-	border-bottom :3% solid #3F3F3F;
+	border-bottom-color :#3F3F3F;
+	border-bottom-style :border;
+	border-bottom-width :3px;
 }
