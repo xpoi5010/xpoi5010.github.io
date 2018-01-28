@@ -1,9 +1,10 @@
 ﻿{
   "Products": [
     {
-      "Name": "ZenFone 3(ZE552KL)",
+      "HashId": "CHukp94xOkwRMIP4",
       "imageUrl": "https://www.asus.com/media/global/products/CHukp94xOkwRMIP4/P_setting_xxx_0_90_end_300.png",
-      "HashId": "CHukp94xOkwRMIP4"
+      "Name": "ZenFone 3(ZE552KL)"
     }
-  ]
+  ],
+  "Count": 1
 }
