@@ -1,0 +1,32 @@
+﻿//YuanApplicationStudio Products list
+
+[
+  {
+    "ProductName": {
+      "Chinese_Traditional": "時刻表",
+      "English": "TimeTable"
+    },
+    "Version": "1.0.1.0",
+    "Download": "https://app.yuanstudio.cc/Download/TimeTable/TimeTable.exe",
+    "Language": [ "zh-tw" ],
+    "License": [ "GPLv3.0" ],
+    "Description": {
+      "zh-tw": "此軟體可以協助您在一日行程規劃(與行事曆不同)，<br/>使您可以按時做您規劃要做的事情。"
+    },
+    "LastUpdataTime": "2018/1/13"
+  },
+  {
+    "ProductName": {
+      "Chinese_Traditional": "ASUS韌體下載器",
+      "English": "ASUS Firmware Downloader"
+    },
+    "Version": "1.3.53.0",
+    "Download": "https://app.yuanstudio.cc/Download/ASUSFirmwareDownloader/ASUSFirmwareDownloader.zip",
+    "Language": [ "zh-tw" ],
+    "License": [ "GPLv3.0" ],
+    "Description": {
+      "zh-tw": "此軟體可以使您在下載ASUS韌體時可以更快速。"
+    },
+    "LastUpdataTime": "2018/1/29"
+  }
+]
