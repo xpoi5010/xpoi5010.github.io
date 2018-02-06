@@ -4,18 +4,6 @@
 content{
 	margin :5% 5% 5% 5%;
 }
-about_header{
-	border-bottom-color :#3F3F3F;
-	border-bottom-style :border;
-	border-bottom-width :3px;
-}
-content_applist{
-	
-}
-about_content{
-	padding-left :10px;
-	padding-top :9px;
-}
 content_applist{
 	padding-top :4px;
 	padding-left : 3%;
