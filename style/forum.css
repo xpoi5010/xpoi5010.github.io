@@ -10,3 +10,11 @@ content_applist{
 	margin-top : 7px;
 	margin-left :4px;
 }
+.header_title {
+         margin-left 0;
+		 margin-top :0;
+		 padding :15px 15px 15px 25px;
+		 border-left-color :#7F7F7F;
+		 border-left-width :10px;
+		 border-left-style :solid;
+}
