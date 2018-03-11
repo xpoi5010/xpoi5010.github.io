@@ -11,7 +11,8 @@
     "Description": {
       "zh-tw": "此軟體可以協助您在一日行程規劃(與行事曆不同)，<br/>使您可以按時做您規劃要做的事情。"
     },
-    "LastUpdataTime": "2018/1/13"
+    "LastUpdataTime": "2018/1/13",
+	"SourceCode": "https://github.com/xpoi5010/TimeTable"
   },
   {
     "ProductName": {
@@ -25,6 +26,7 @@
     "Description": {
       "zh-tw": "此軟體可以使您在下載ASUS韌體時可以更快速。"
     },
-    "LastUpdataTime": "2018/1/29"
+    "LastUpdataTime": "2018/1/29",
+	"SourceCode": "https://github.com/xpoi5010/ASUS-Firmware-Downloader"
   }
 ]

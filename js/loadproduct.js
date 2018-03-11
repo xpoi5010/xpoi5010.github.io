@@ -1,7 +1,7 @@
 LoadProduct();
-function AddProduct(id,productName,productDescript,productDownloadLink){
+function AddProduct(id,productName,productDescript,productDownloadLink,sourcecodeLink){
 	
-	document.getElementById("slist").innerHTML+="<div class=\"software_list_item\" id=\""+ id +"\">\r\n<div class=\"software_list_apptitle\">\r\n"+ productName +"\r\n</div>\r\n<div class=\"software_list_appdescription\">\r\n"+ productDescript +"\r\n</div>\r\n<div class=\"Download_btn\">\r\n<a href=\""+ productDownloadLink +"\" class=\"DOWNLOADLINK\">下載</a>\r\n</div>\r\n</div>";
+	document.getElementById("slist").innerHTML+="<div class=\"software_list_item\" id=\""+ id +"\">\r\n<div class=\"software_list_apptitle\">\r\n"+ productName +"\r\n</div>\r\n<div class=\"software_list_appdescription\">\r\n"+ productDescript +"\r\n</div>\r\n<div class=\"ButtonCollection\"><div class=\"Download_btn\">\r\n<a href=\""+ productDownloadLink +"\" class=\"DOWNLOADLINK\">下載</a>\r\n</div>\r\n<div class=\"Download_btn\">\r\n<a href=\""+ sourcecodeLink +"\" class=\"DOWNLOADLINK\">原始碼</a>\r\n</div>\r\n</div>\r\n</div>";
 }
 function LoadProduct(){
     var xhr = new XMLHttpRequest();
@@ -24,6 +24,7 @@ function LoadJson(input) {
         var Version = Item.Version;
         var DownloadUrl = Item.Download;
         var Description = Item.Description;
-        AddProduct(i, ProductName.Chinese_Traditional, Description["zh-tw"], DownloadUrl);
+		var SourceCode = Item.SourceCode;
+        AddProduct(i, ProductName.Chinese_Traditional, Description["zh-tw"], DownloadUrl,SourceCode);
     }
 }
