@@ -1,56 +1,17 @@
-﻿<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="zh-TW">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" href="style/forum.css" />
-<link rel="stylesheet" href="/style/header.css" />
-<style type="text/css">
-		    .about_header {
-	border-bottom-color :#3F3F3F;
-	border-bottom-style :border;
-	border-bottom-width :3px;
-}
-.about_content {
-	padding-left :10%;
-	padding-top :10%;
-}
-		  </style>
-    <title>YuanApplicationStudio</title>
+    <meta charset="UTF-8">
+    <title>我的第一個互動網頁</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <form id="form1">
-        <div class="header">
-
-            <ul>
-                <li>
-                    <a href="index.html" class="title">YuanApplicationStudio
-                    </a>
-                </li>
-                
-                <li name="home">
-                    <a href="index.html" class="now">首頁</a>
-                </li>
-                <li name="software">
-                    <a href="applist.html">軟體</a>
-                </li>
-				<li name="about">
-                    <a href="about.html">關於</a>
-                </li>
-				
-            </ul>
-            <div name="top" class="top">
-                <div class="sub">
-                    <span class="b">
-                        <a href="http://www.yuanstudio.cc" class="topb">YuanStudio</a>
-                    </span>
-                </div>
-            </div>
-        </div>
-		
-		<div class="content">
-		  
-		</div>
-    </form>
+    <div class="card">
+        <h1 id="title">資工系大一的初體驗</h1>
+        <p id="message">點擊下方按鈕，看看你的程式碼心情！</p>
+        <button onclick="changeMood()">切換心情狀態</button>
+    </div>
+    <script type="text/javascript" src="script.js">
+    </script>
 </body>
 </html>
